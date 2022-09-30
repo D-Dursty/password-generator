@@ -18,7 +18,6 @@ console.log(numbers)
 
 function chosenValues() {
 
-  //var length = 0;
   length = parseInt(prompt("How many characters long would you like your Password? Pick a value between 8, and 128."));
   console.log(length, typeof (length))
   if (length < 8 || length > 128) {
@@ -29,10 +28,10 @@ function chosenValues() {
 
     // The confirm method returns a boolean 
 
-    var numbersChoice = confirm("Would you like to use numbers?\n Choose y for yes, or n for no.");
-    var symbolsChoice = confirm("Would you like to use symbols?\n Choose y for yes, or n for no.");
-    var lowercaseChoice = confirm("Would you like to use lowercase letters?\n Choose y for yes, or n for no.");
-    var uppercaseChoice = confirm("Would you like to use uppercase letters?\n Choose y for yes, or n for no.");
+    var numbersChoice = confirm("Would you like to use numbers?");
+    var symbolsChoice = confirm("Would you like to use symbols?");
+    var lowercaseChoice = confirm("Would you like to use lowercase letters?");
+    var uppercaseChoice = confirm("Would you like to use uppercase letters?");
     //What if they say no to everything?
 
     if (!numbersChoice && !symbolsChoice && !lowercaseChoice && !uppercaseChoice) {
