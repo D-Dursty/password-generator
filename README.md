@@ -25,4 +25,4 @@ Github Repository: https://github.com/D-Dursty/password-generator
 N/A
 
 ## Credits
-Built with so much frustration, confusion, and moments of understanding with amazing support by my friends, Tutors, and startercode credit to 2u bootcamp. 
+Built with so much frustration, confusion, and moments of understanding with amazing support by my friends, Tutors, and startercode credit to 2u bootcamp, by Devon Durst, September 2022
